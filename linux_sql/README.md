@@ -10,27 +10,27 @@ The Linux Cluster Monitoring Agent was developed as a Minimal Viable Product (MV
 
 Create a psql container using psql_docker.sh specified with db_username and db_password
 
-bash /scripts/psql_docker.sh create db_username db_password
+	bash /scripts/psql_docker.sh create db_username db_password
 
 Start a psql instance using psql_docker.sh
 
-Psql -h localhost -p 5432 -U postgres -d host_agent -f sql/ddl.sql
+	Psql -h localhost -p 5432 -U postgres -d host_agent -f sql/ddl.sql
 
 Create tables using ddl.sql
 
-bash scripts/host_info.sh localhost 5432 host_agent postgres password
+	bash scripts/host_info.sh localhost 5432 host_agent postgres password
 
 Insert hardware specs data into the DB using host_info.sh
 
-bash scripts/host_info.sh localhost 5432 host_agent postgres password
+	bash scripts/host_info.sh localhost 5432 host_agent postgres password
 
 Insert hardware usage data into the DB using host_usage.sh
 
-bash scripts/host_usage.sh localhost 5432 host_agent postgres password
+	bash scripts/host_usage.sh localhost 5432 host_agent postgres password
 
-Crontab setup
-crontab -e 
-* * * * * bash <path>/host_usage.sh psql_host psql_port db_name psql_user psql_password
+Crontab setup:
+	crontab -e 
+	* * * * * bash <path>/host_usage.sh psql_host psql_port db_name psql_user psql_password
 
 # Implementation
 
@@ -44,27 +44,27 @@ Firstly, Docker is used to create a psql container. Bash script (psql_docker.sh)
 
 # Scripts
 
-- 	./scripts/psql_docker.sh
+	./scripts/psql_docker.sh
 Derived from Docker; creates, starts, and stops a psql instance.
 
 The two Bash scripts which were developed to as monitoring agents:
 
--	./scripts/host_info.sh 
-	Inserts Linux Host Hardware Specifications within the “host_info” table.
+	./scripts/host_info.sh 
+Inserts Linux Host Hardware Specifications within the “host_info” table.
 
 This script captures status hardware data. It utilizes Linux utilities such as lscpu, and /proc/meminfo to gather Hardware Specifications. This data is then formatted into a SQL INSERT statement and pushed to the database.
 
 
--	./scripts/host_usage.sh
-	Inserts Linux Host Resource Usage Data within the “host_usage” table.
+	./scripts/host_usage.sh
+Inserts Linux Host Resource Usage Data within the “host_usage” table.
 	
 This script captures dynamic resource usage. It uses vmstat, and df to extract Resource Usage. This data is then queried to the database.
 
-- 	./sql/ddl.sql
-	Contains the Data Definition Language (DDL) commands to create host_agent database. 
+	./sql/ddl.sql
+Contains the Data Definition Language (DDL) commands to create host_agent database. 
 
-- 	./sql/queries.sql
-	SQL reports, used to solve business problems.
+	./sql/queries.sql
+SQL reports, used to solve business problems.
 
 # Database Modeling
 
@@ -87,19 +87,19 @@ cpu_idle: INT, Percentage of idle CPU
 	disk_io: INT, Number of disks currently in I/O
 	disk_available: INT, Available disk space in MB
 
-Test - Streamlined using the following technologies.
+# Test
 
 Bash Scripts: Executed from the CLI. Utilized Linux exit codes (echo $?) to ensure validity. 
 
-	DDL/SQL: The ddl.sql file was executed against the Dockerized PostgreSQL instance. The schema was validated by logging into the psql shell.
+DDL/SQL: The ddl.sql file was executed against the Dockerized PostgreSQL instance. The schema was validated by logging into the psql shell.
 
 # Deployment
 
-	Github: The source code was hosted on Github, allowing the repository to be cloned seamlessly onto the target Linux host nodes.
+Github: The source code was hosted on Github, allowing the repository to be cloned seamlessly onto the target Linux host nodes.
 	
-	Docker: The database was deployed using Docker, allowing the RDBMS to be utilized.
+Docker: The database was deployed using Docker, allowing the RDBMS to be utilized.
 
-	Crontab: Application automation was deployed by configuring the local crontab daemon on each host node to execute the monitoring agents within the background.
+Crontab: Application automation was deployed by configuring the local crontab daemon on each host node to execute the monitoring agents within the background.
 
 # Improvements
 
