@@ -34,7 +34,7 @@ crontab -e
 
 # Implementation
 
-Firstly, Docker is used to create a psql container. Bash script (psql_docker.sh) was developed to manage this container (create, start, stop). Once the PostgreSQL database was running, a Data Definition Language (DDL) script, ddl.sql was created to the host_agent database and create the host_info and host_usage tables, cementing the relational structure necessary for data storage.
+Firstly, Docker is used to create a psql container. Bash script (psql_docker.sh) was developed to manage this container (create, start, stop). Once the PostgreSQL database was running, a Data Definition Language (DDL) script, ddl.sql was created to the host_agent database and create the host_info and host_usage tables, cementing the relational structure necessary for data storage. Finally, the scripts are transformed into a continuous monitoring service. By utilizing Crontab, the host_usage.sh script is scheduled to run every minute ( * * * * *) This automation confirms that the database receives scheduled performance data, automating the process, and allowing the system to capture usage data effectively.
 
 # Architecture 
 
@@ -65,8 +65,6 @@ This script captures dynamic resource usage. It uses vmstat, and df to extract R
 
 - 	./sql/queries.sql
 	SQL reports, used to solve business problems.
-
-Finally, the scripts are transformed into a continuous monitoring service. By utilizing Crontab, the host_usage.sh script is scheduled to run every minute ( * * * * *) This automation confirms that the database receives scheduled performance data, automating the process, and allowing the system to capture usage data effectively.
 
 # Database Modeling
 
