@@ -87,11 +87,13 @@ cpu_idle: INT, Percentage of idle CPU
 	disk_io: INT, Number of disks currently in I/O
 	disk_available: INT, Available disk space in MB
 
+
 # Test
 
 Bash Scripts: Executed from the CLI. Utilized Linux exit codes (echo $?) to ensure validity. 
 
 DDL/SQL: The ddl.sql file was executed against the Dockerized PostgreSQL instance. The schema was validated by logging into the psql shell.
+
 
 # Deployment
 
@@ -100,6 +102,7 @@ Github: The source code was hosted on Github, allowing the repository to be clon
 Docker: The database was deployed using Docker, allowing the RDBMS to be utilized.
 
 Crontab: Application automation was deployed by configuring the local crontab daemon on each host node to execute the monitoring agents within the background.
+
 
 # Improvements
 
