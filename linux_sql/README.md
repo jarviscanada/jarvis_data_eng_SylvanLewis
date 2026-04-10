@@ -39,7 +39,7 @@ Firstly, Docker is used to create a psql container. Bash script (psql_docker.sh)
 # Architecture 
 
 
-
+!["Rocky Linux 9 Cluster Monitor"](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/blob/develop/linux_sql/assets/LinuxClusteringDiagram.png)
 
 
 # Scripts
