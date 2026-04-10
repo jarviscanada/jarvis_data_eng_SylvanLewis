@@ -2,47 +2,47 @@
 
 This project is designed to monitor static hardware specifications and dynamic resource usage, ranging across a cluster of Rocky Linux 9 nodes. By deploying bash scripts as agents on these nodes, the system collects then centralizes them within the PostgreSQL database. This project totals as a reliable way to track system health over time, based on continuous tracked data.
 
-Introduction
+# Introduction
 
 The Linux Cluster Monitoring Agent was developed as a Minimal Viable Product (MVP), solving the problem of monitoring a convoluted cluster of servers. Focusing on data collection and data storage, for analysis. While Resource Usage is collected and stored routinely, the Hardware Information is collected once per host. Bash was utilized as the primary scripting language, developing monitoring agents, and direct data extraction from system files (lscpu, proc/meminfo). Docker’s implementation containerized the PostgreSQL database, providing portable deployment environment access across different host machines. PostgreSQL was the central relational database. Version control was managed through the local command line Git, and the cloud-based platform that hosts this project is Github; all whilst following a meticulous Gitflow workflow. Crontab was used for automatic periodic execution of the scripts, transforming them into the necessary monitoring application.
 
-Quick Start
+# Quick Start
 
-# Create a psql container using psql_docker.sh specified with db_username and db_password
+Create a psql container using psql_docker.sh specified with db_username and db_password
 
 bash /scripts/psql_docker.sh create db_username db_password
 
-# Start a psql instance using psql_docker.sh
+Start a psql instance using psql_docker.sh
 
 Psql -h localhost -p 5432 -U postgres -d host_agent -f sql/ddl.sql
 
-# Create tables using ddl.sql
+Create tables using ddl.sql
 
 bash scripts/host_info.sh localhost 5432 host_agent postgres password
 
-# Insert hardware specs data into the DB using host_info.sh
+Insert hardware specs data into the DB using host_info.sh
 
 bash scripts/host_info.sh localhost 5432 host_agent postgres password
 
-# Insert hardware usage data into the DB using host_usage.sh
+Insert hardware usage data into the DB using host_usage.sh
 
 bash scripts/host_usage.sh localhost 5432 host_agent postgres password
 
-# Crontab setup
+Crontab setup
 crontab -e 
 * * * * * bash <path>/host_usage.sh psql_host psql_port db_name psql_user psql_password
 
-Implementation
+# Implementation
 
 Firstly, Docker is used to create a psql container. Bash script (psql_docker.sh) was developed to manage this container (create, start, stop). Once the PostgreSQL database was running, a Data Definition Language (DDL) script, ddl.sql was created to the host_agent database and create the host_info and host_usage tables, cementing the relational structure necessary for data storage.
 
-Architecture 
+# Architecture 
 
 
 
 
 
-Scripts
+# Scripts
 
 - 	./scripts/psql_docker.sh
 Derived from Docker; creates, starts, and stops a psql instance.
@@ -68,7 +68,7 @@ This script captures dynamic resource usage. It uses vmstat, and df to extract R
 
 Finally, the scripts are transformed into a continuous monitoring service. By utilizing Crontab, the host_usage.sh script is scheduled to run every minute ( * * * * *) This automation confirms that the database receives scheduled performance data, automating the process, and allowing the system to capture usage data effectively.
 
-Database Modeling
+# Database Modeling
 
 host_info:
 id: SERIAL (PK), Unique Identifier for each host
@@ -95,7 +95,7 @@ Bash Scripts: Executed from the CLI. Utilized Linux exit codes (echo $?) to ensu
 
 	DDL/SQL: The ddl.sql file was executed against the Dockerized PostgreSQL instance. The schema was validated by logging into the psql shell.
 
-Deployment
+# Deployment
 
 	Github: The source code was hosted on Github, allowing the repository to be cloned seamlessly onto the target Linux host nodes.
 	
@@ -103,7 +103,7 @@ Deployment
 
 	Crontab: Application automation was deployed by configuring the local crontab daemon on each host node to execute the monitoring agents within the background.
 
-Improvements
+# Improvements
 
 Alerts: Integrate an email update to notify the team if the server has issues.
 
