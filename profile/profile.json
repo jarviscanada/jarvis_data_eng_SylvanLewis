@@ -1,7 +1,9 @@
 {
   "education": [
     {
-      "awards_achievements": null,
+      "awards_achievements": [
+        "Oussama J. Marrow Memorial Award” - “TD Meloche Monnex Bursary” - ”Tom Janes Award for Black Scholars"
+      ],
       "degree": "Bachelor of Arts",
       "department": "Political Science",
       "duration": "2025-present",
@@ -45,7 +47,7 @@
       "name": "Springboot App"
     },
     {
-      "description": "N/A",
+      "description": "Analyzed two years of e-commerce transactional data for the London Gift Shop using Python (Pandas) and SQL to perform RFM customer segmentation, evaluate Q4 revenue seasonality, and identify growth opportunities across international buyer segments.",
       "git_url": "/python_data_anlytics",
       "name": "Python Data Analytics"
     },
@@ -76,9 +78,9 @@
     },
     {
       "bullets": [
-        "Spending time with my 20 month old son",
-        "Exercising",
-        "Volunteering, Tree Stewardship, City of Toronto"
+        "Dedicated parent balancing professional growth with active family engagement",
+        "Maintaining an active personal routine through regular strength training and fitness",
+        "Actively contributing to local urban forest conservation and environmental sustainability programs"
       ],
       "title": "Activities/Hobbies"
     }
@@ -86,7 +88,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Building scalable PostgreSQL pipelines via Docker and Shell, optimzing SQL Architectures, and delivering data-driven insights using Python, Pandas and hardware-monitoring analytics.",
+      "description": "Building scalable PostgreSQL pipelines via Docker and Shell, optimizing SQL Architectures, and delivering data-driven insights using Python, Pandas and hardware-monitoring analytics.",
       "duration": "2026-present",
       "title": "Business System Analyst"
     },
