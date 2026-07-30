@@ -83,10 +83,10 @@ professional_experience:
     company: "TD Bank"
     duration: "2024-2025"
     description: "Supported data governance standards and procedures, collaborated on Python-based data ingestion workflows within Collibra, and updated Critical Data Elements (CDEs) through Jira."
-  - title: "Associate"
+  - title: "Crew Member"
     company: "McDonalds Canada"
     duration: "2017-2018"
-    description:
+    description: "Delivered exceptional customer service and maintained operational efficiency in a fast-paced environment, demonstrating strong teamwork and problem-solving skills."
 #List of education
 education:
   - school_name: "York University"
