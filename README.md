@@ -45,7 +45,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 
 ## Education
 **York University (2025-present)**, Bachelor of Arts, Political Science
-- Oussama J. Marrow Memorial Award” - “TD Meloche Monnex Bursary” - ”Tom Janes Award for Black Scholars
+- Oussama J. Marrow Memorial Award, TD Meloche Monnex Bursary, Tom Janes Award for Black Scholars
 
 **Humber College (2018-2020)**, Diploma in Paralegal Education, Paralegal Education
 

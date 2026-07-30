@@ -6,7 +6,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: "I bring a balanced perspective and professional experience through my studies in Political Science within York University, and past Software Engineer experience at TD Bank. Working within the EDMO Standards and Procedures team at TD Bank, I focused on process analysis, data governance, and improving operational workflows across data management practices. What excites me about the BSA role is its synthesis with technical and business tasks. I am passionate about creating structured, scalable processes that support innovation and long-term impact."
+summary: "Business Systems Analyst with a background in Political Science from York University and enterprise data experience at TD Bank. While working within TD's Enterprise Data Management Office (EDMO), focused on data governance, process analysis, and streamlining operational workflows across data management practices. Skilled in bridging technical requirements with business strategy, building automated data pipelines, and designing structured, scalable processes that optimize data reliability and organizational efficiency."
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
@@ -83,6 +83,10 @@ professional_experience:
     company: "TD Bank"
     duration: "2024-2025"
     description: "Supported data governance standards and procedures, collaborated on Python-based data ingestion workflows within Collibra, and updated Critical Data Elements (CDEs) through Jira."
+  - title: "Associate"
+    company: "McDonalds Canada"
+    duration: "2017-2018"
+    description:
 #List of education
 education:
   - school_name: "York University"
@@ -90,9 +94,7 @@ education:
     degree: "Bachelor of Arts"
     department: "Political Science"
     awards_achievements:
-      - "Oussama J. Marrow Memorial Award”
-      - “TD Meloche Monnex Bursary”
-      - ”Tom Janes Award for Black Scholars"
+      - Oussama J. Marrow Memorial Award, TD Meloche Monnex Bursary, Tom Janes Award for Black Scholars
   - school_name: "Humber College"
     duration: "2018-2020"
     degree: "Diploma in Paralegal Education"
