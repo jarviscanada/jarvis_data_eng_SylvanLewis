@@ -1,0 +1,126 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Oussama J. Marrow Memorial Award” - “TD Meloche Monnex Bursary” - ”Tom Janes Award for Black Scholars"
+      ],
+      "degree": "Bachelor of Arts",
+      "department": "Political Science",
+      "duration": "2025-present",
+      "school_name": "York University"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Diploma in Paralegal Education",
+      "department": "Paralegal Education",
+      "duration": "2018-2020",
+      "school_name": "Humber College"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis",
+  "highlighted_projects": [
+    {
+      "description": "Developed a Java-based expense tracking application that manages budgets, categorizes spending, stores financial data persistently, and generates reports to help users analyze spending habits.",
+      "git_url": "https://github.com/sylvan-lewis/Raq-Track",
+      "name": "Personal Expense Manager"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Built a PostgreSQL hardware usage monitor for a Linux cluster environment using Bash scripting and Docker to run services within a closed network.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": "Analyzed a resort dataset containing facility, reservation, and member information by organizing the data into a relational PostgreSQL database running on Docker, and translating business questions into SQL queries.",
+      "git_url": "/sql",
+      "name": "RDBMS \u0026 SQL"
+    },
+    {
+      "description": "N/A",
+      "git_url": "/java",
+      "name": "Core Java App"
+    },
+    {
+      "description": "N/A",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "Analyzed two years of e-commerce transactional data for the London Gift Shop using Python (Pandas) and SQL to perform RFM customer segmentation, evaluate Q4 revenue seasonality, and identify growth opportunities across international buyer segments.",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "N/A",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "N/A",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "N/A",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Sylvan Lewis",
+  "others": [
+    {
+      "bullets": [
+        "IBM Data Analytics (2024)",
+        "Azure AI Fundamentals (2024)"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Dedicated parent balancing professional growth with active family engagement",
+        "Maintaining an active personal routine through regular strength training and fitness",
+        "Actively contributing to local urban forest conservation and environmental sustainability programs"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Building scalable PostgreSQL pipelines via Docker and Shell, optimizing SQL Architectures, and delivering data-driven insights using Python, Pandas and hardware-monitoring analytics.",
+      "duration": "2026-present",
+      "title": "Business System Analyst"
+    },
+    {
+      "company": "TD Bank",
+      "description": "Supported data governance standards and procedures, collaborated on Python-based data ingestion workflows within Collibra, and updated Critical Data Elements (CDEs) through Jira.",
+      "duration": "2024-2025",
+      "title": "Associate Software Engineer"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Java (Spring Boot)",
+      "Javascript",
+      "Jira/Confluence",
+      "Cloud Platforms",
+      "Figma"
+    ],
+    "familiar": [
+      "Linux, Bash",
+      "Docker",
+      "Selenium/JUnit",
+      "REST APIs",
+      "Excel"
+    ],
+    "proficient": [
+      "Python",
+      "Data Analytics",
+      "SQL/RDBMS",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "I bring a balanced perspective and professional experience through my studies in Political Science within York University, and past Software Engineer experience at TD Bank. Working within the EDMO Standards and Procedures team at TD Bank, I focused on process analysis, data governance, and improving operational workflows across data management practices. What excites me about the BSA role is its synthesis with technical and business tasks. I am passionate about creating structured, scalable processes that support innovation and long-term impact."
+}
