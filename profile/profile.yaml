@@ -99,10 +99,7 @@ education:
     duration: "2025-present"
     degree: "Bachelor of Arts"
     department: "Political Science"
-    awards_achievements: 
-      - "TD Meloche Monnex Bursary (2025)"
-      - "Tom Janes Award for Black Scholars (2026)"
-      - "Oussama J. Marrow Memorial Award (2026)"
+    awards_achievements: null
   - school_name: "Humber College"
     duration: "2018-2020"
     degree: "Diploma in Paralegal Education"
@@ -120,6 +117,9 @@ others:
     bullets:
       - "IBM Data Analytics (2024)"
       - "Azure AI Fundamentals (2024)"
+      - "TD Meloche Monnex Bursary (2025)"
+      - "Tom Janes Award for Black Scholars (2026)"
+      - "Oussama J. Marrow Memorial Award (2026)"
   - title: "Activities/Hobbies"
     bullets:
       - "Dedicated parent balancing professional growth with active family engagement"
