@@ -4,6 +4,8 @@ name: "Sylvan Lewis"
 github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis
 
 
+
+
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
 summary: "Business Systems Analyst with a background in Political Science from York University and enterprise data experience at TD Bank. While working within TD's Enterprise Data Management Office (EDMO), focused on data governance, process analysis, and streamlining operational workflows across data management practices. Skilled in bridging technical requirements with business strategy, building automated data pipelines, and designing structured, scalable processes that optimize data reliability and organizational efficiency."
@@ -12,53 +14,57 @@ summary: "Business Systems Analyst with a background in Political Science from Y
 skills:
   # At least 5 skills
   proficient:
-    - Python
-    - Data Analytics
-    - SQL/RDBMS
+    - Process Analysis
+    - Jira/Confluence
+    - Requirements Gathering
     - Agile/Scrum
     - Git
   # At least 5 skills
   competent:
-    - Java (Spring Boot)
-    - Javascript
-    - Jira/Confluence
-    - Cloud Platforms
-    - Figma
+    - SQL/RDBMS
+    - Excel
+    - Data Governance
+    - Critical Data Elements
+    - Crossteam Collaboration
   # At least 5 skills
   familiar:
-    - Linux, Bash
+    - Python
     - Docker
-    - Selenium/JUnit
-    - REST APIs
-    - Excel
+    - Data Analytics
+    - Cloud Platforms
+    - Figma
+
+
 
 
 # List of Jarvis projects
 jarvis_projects:
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
-    description: "Built a PostgreSQL hardware usage monitor for a Linux cluster environment using Bash scripting and Docker to run services within a closed network."
+    description: "Built a Bash-based hardware monitoring application that automates the collection of Linux server metrics, including CPU usage, memory availability, and host details. Persisted the collected usage data into a containerized PostgreSQL database managed through Docker for performance tracking. Documented application architecture, data flow, and operating procedures to support reliable system observability and resource management."
   - name: "RDBMS & SQL"
     git_url: "/sql"
     description: "Analyzed a resort dataset containing facility, reservation, and member information by organizing the data into a relational PostgreSQL database running on Docker, and translating business questions into SQL queries."
-  - name: "Core Java App"
-    git_url: "/java"
-    description: "N/A"
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: "N/A"
+  - name: "Business Requirements Document"
+    git_url: "/rbc_gam"
+    description: "Produced a comprehensive Business Requirements Document for a proposed RBC Global Asset Management reporting solution that consolidated data from five source systems into an executive dashboard. Documented business objectives, stakeholders, functional specifications, non-functional requirements, and data governance controls for daily reporting refreshes. Translated complex financial reporting needs into implementation-ready requirements for technical development teams. "
+  - name: "Software Requirements Specification"
+    git_url: "/stockquote"
+    description: "Led stakeholder elicitation sessions to define functional and non-functional requirements for a self-serve retail stock trading front-end, producing a comprehensive Software Requirements Document (SRD). Modeled core entities for trade transactions, mapped system dependencies against existing bank execution engines, and established pre-trade buying power validation rules. Documented order lifecycle states, market closure exception workflows, and data-drift risks to deliver implementation-ready specs for development teams."
   - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
+    git_url: "/python_data_analytics"
     description: "Analyzed two years of e-commerce transactional data for the London Gift Shop using Python (Pandas) and SQL to perform RFM customer segmentation, evaluate Q4 revenue seasonality, and identify growth opportunities across international buyer segments."
   - name: "Hadoop"
     git_url: "/hadoop"
-    description: "N/A"
+    description: ""
   - name: "Spark"
     git_url: "/spark"
-    description: "N/A"
+    description: ""
   - name: "Cloud/DevOps"
     git_url: "/cloud_devops"
-    description: "N/A"
+    description: ""
+
+
 
 
 # List of personal or academic projects
@@ -69,7 +75,7 @@ highlighted_projects:
     #URL is optional
     git_url: "https://github.com/sylvan-lewis/Raq-Track"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Developed a Java-based expense tracking application that manages budgets, categorizes spending, stores financial data persistently, and generates reports to help users analyze spending habits."
+    description: "Personally designed and implemented an object-oriented expense tracking application in Java to assist users in managing budgets and monitoring spending habits. Translated personal financial management needs into functional application features, including transaction categorization, user authentication, and persistent file storage. Structured the software into distinct controllers, data models, and view components to demonstrate clean architectural design and functional testing."
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
@@ -78,28 +84,32 @@ professional_experience:
   - title: "Business System Analyst"
     company: "Jarvis"
     duration: "2026-present"
-    description: "Building scalable PostgreSQL pipelines via Docker and Shell, optimizing SQL Architectures, and delivering data-driven insights using Python, Pandas and hardware-monitoring analytics."
+    description: "Analyze business needs and translate them into functional requirements, technical documentation, process models, and proposed system solutions across data and software projects. Collaborate on technical projects involving SQL, PostgreSQL, Python, Docker and Git while balancing organizational objectives."
   - title: "Associate Software Engineer"
     company: "TD Bank"
     duration: "2024-2025"
-    description: "Supported data governance standards and procedures, collaborated on Python-based data ingestion workflows within Collibra, and updated Critical Data Elements (CDEs) through Jira."
-  - title: "Crew Member"
-    company: "McDonalds Canada"
-    duration: "2017-2018"
-    description: "Delivered exceptional customer service and maintained operational efficiency in a fast-paced environment, demonstrating strong teamwork and problem-solving skills."
+    description: "Supported data governance standards and procedures within TD Bank's Enterprise Data Management Office with cross-team collaboration in implementing new DSCIT standards. Collaborated with business and technical partners on Python-based data ingestion workflows within Collibra and updated Critical Data Elements through Jira. Connected governance compliance requirements directly with technical data solutions to improve documentation transparency, data lineage, and system reliability "
+  - title: "Stow Line Lead"
+    company: "Amazon"
+    duration: "2021-2022"
+    description: "Supported fulfillment centre operations by scanning, organizing, and accurately stowing incoming inventory into designated storage locations while meeting productivity, quality, and safety expectations. Took on line-lead responsibilities by helping organize workflow, communicating daily instructions, supporting associates, and escalating inventory or operational issues to supervisors. Developed strong experience in process coordination, performance monitoring, teamwork, and maintaining efficiency within a high-volume operational environment."
 #List of education
 education:
   - school_name: "York University"
     duration: "2025-present"
     degree: "Bachelor of Arts"
     department: "Political Science"
-    awards_achievements:
-      - Oussama J. Marrow Memorial Award, TD Meloche Monnex Bursary, Tom Janes Award for Black Scholars
+    awards_achievements: 
+      - "TD Meloche Monnex Bursary (2025)"
+      - "Tom Janes Award for Black Scholars (2026)"
+      - "Oussama J. Marrow Memorial Award (2026)"
   - school_name: "Humber College"
     duration: "2018-2020"
     degree: "Diploma in Paralegal Education"
     department: "Paralegal Education"
     awards_achievements: null
+
+
 
 
 #Optional section
@@ -115,3 +125,8 @@ others:
       - "Dedicated parent balancing professional growth with active family engagement"
       - "Maintaining an active personal routine through regular strength training and fitness"
       - "Actively contributing to local urban forest conservation and environmental sustainability programs"
+
+
+
+
+
