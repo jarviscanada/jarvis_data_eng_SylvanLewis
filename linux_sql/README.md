@@ -68,25 +68,28 @@ SQL reports, used to solve business problems.
 
 # Database Modeling
 
-host_info:
-id: SERIAL (PK), Unique Identifier for each host
-hostname: VARCHAR, Fully qualified domain name
-cpu_number: INT, Number of CPU cores
-cpu_architecture: VARCHAR, x86_64
-cpu_model: INT, Total RAM in KB
-cpu_mhz: TIMESTAMP, Time of registration
-total_mem: INT, Total RAM in KB
-timestamp: TIMESTAMP, Time of Registration
+### host_info
+| Column | Data Type | Description |
+| :--- | :--- | :--- |
+| **id** | SERIAL | **Primary Key**: Unique identifier for each host |
+| **hostname** | VARCHAR | Fully qualified domain name |
+| **cpu_number** | INT | Number of CPU cores |
+| **cpu_architecture** | VARCHAR | CPU Architecture (e.g., x86_64) |
+| **cpu_model** | VARCHAR | Name/Model of the CPU |
+| **cpu_mhz** | FLOAT | CPU clock speed in MHz |
+| **total_mem** | INT | Total RAM available (in KB) |
+| **timestamp** | TIMESTAMP | Time of node registration (UTC) |
 
-host_usage:
-	timestamp: TIMESTAMP, Time of Registration
-	host_id: INT(FK), Reference to host_info.id
-	memory_free: INT, Available RAM in MB
-cpu_idle: INT, Percentage of idle CPU	
-	cpu_kernel: INT, Percentage of CPU used by kernel
-	disk_io: INT, Number of disks currently in I/O
-	disk_available: INT, Available disk space in MB
-
+### host_usage
+| Column | Data Type | Description |
+| :--- | :--- | :--- |
+| **timestamp** | TIMESTAMP | Time of resource snapshot (UTC) |
+| **host_id** | INT | **Foreign Key**: References `host_info.id` |
+| **memory_free** | INT | Currently available RAM (in MB) |
+| **cpu_idle** | INT | Percentage of time CPU was idle |
+| **cpu_kernel** | INT | Percentage of CPU used by the kernel |
+| **disk_io** | INT | Number of disks currently in I/O |
+| **disk_available** | INT | Remaining disk space on root (in MB) |
 
 # Test
 
@@ -110,7 +113,7 @@ Alerts: Integrate an email update to notify the team if the server has issues.
 
 Quarterly insights: Drawing insights to analyze 3-month periods, to captivate the lifecycle of data.
 
-Allow regional data mapping: To draw historical insights, to see if the machines regional base impacts the application
+Allow regional data mapping: To draw historical insights, to see if the machines regional base impacts the application.
 
 
 

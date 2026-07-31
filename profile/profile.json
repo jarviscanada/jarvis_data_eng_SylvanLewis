@@ -1,0 +1,134 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "TD Meloche Monnex Bursary (2025)",
+        "Tom Janes Award for Black Scholars (2026)",
+        "Oussama J. Marrow Memorial Award (2026)"
+      ],
+      "degree": "Bachelor of Arts",
+      "department": "Political Science",
+      "duration": "2025-present",
+      "school_name": "York University"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Diploma in Paralegal Education",
+      "department": "Paralegal Education",
+      "duration": "2018-2020",
+      "school_name": "Humber College"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis",
+  "highlighted_projects": [
+    {
+      "description": "Personally designed and implemented an object-oriented expense tracking application in Java to assist users in managing budgets and monitoring spending habits. Translated personal financial management needs into functional application features, including transaction categorization, user authentication, and persistent file storage. Structured the software into distinct controllers, data models, and view components to demonstrate clean architectural design and functional testing.",
+      "git_url": "https://github.com/sylvan-lewis/Raq-Track",
+      "name": "Personal Expense Manager"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Built a Bash-based hardware monitoring application that automates the collection of Linux server metrics, including CPU usage, memory availability, and host details. Persisted the collected usage data into a containerized PostgreSQL database managed through Docker for performance tracking. Documented application architecture, data flow, and operating procedures to support reliable system observability and resource management.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": "Analyzed a resort dataset containing facility, reservation, and member information by organizing the data into a relational PostgreSQL database running on Docker, and translating business questions into SQL queries.",
+      "git_url": "/sql",
+      "name": "RDBMS \u0026 SQL"
+    },
+    {
+      "description": "Produced a comprehensive Business Requirements Document for a proposed RBC Global Asset Management reporting solution that consolidated data from five source systems into an executive dashboard. Documented business objectives, stakeholders, functional specifications, non-functional requirements, and data governance controls for daily reporting refreshes. Translated complex financial reporting needs into implementation-ready requirements for technical development teams. ",
+      "git_url": "/rbc_gam",
+      "name": "Business Requirements Document"
+    },
+    {
+      "description": "Led stakeholder elicitation sessions to define functional and non-functional requirements for a self-serve retail stock trading front-end, producing a comprehensive Software Requirements Document (SRD). Modeled core entities for trade transactions, mapped system dependencies against existing bank execution engines, and established pre-trade buying power validation rules. Documented order lifecycle states, market closure exception workflows, and data-drift risks to deliver implementation-ready specs for development teams.",
+      "git_url": "/stockquote",
+      "name": "Software Requirements Specification"
+    },
+    {
+      "description": "Analyzed two years of e-commerce transactional data for the London Gift Shop using Python (Pandas) and SQL to perform RFM customer segmentation, evaluate Q4 revenue seasonality, and identify growth opportunities across international buyer segments.",
+      "git_url": "/python_data_analytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Sylvan Lewis",
+  "others": [
+    {
+      "bullets": [
+        "IBM Data Analytics (2024)",
+        "Azure AI Fundamentals (2024)"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Dedicated parent balancing professional growth with active family engagement",
+        "Maintaining an active personal routine through regular strength training and fitness",
+        "Actively contributing to local urban forest conservation and environmental sustainability programs"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Analyze business needs and translate them into functional requirements, technical documentation, process models, and proposed system solutions across data and software projects. Collaborate on technical projects involving SQL, PostgreSQL, Python, Docker and Git while balancing organizational objectives.",
+      "duration": "2026-present",
+      "title": "Business System Analyst"
+    },
+    {
+      "company": "TD Bank",
+      "description": "Supported data governance standards and procedures within TD Bank's Enterprise Data Management Office with cross-team collaboration in implementing new DSCIT standards. Collaborated with business and technical partners on Python-based data ingestion workflows within Collibra and updated Critical Data Elements through Jira. Connected governance compliance requirements directly with technical data solutions to improve documentation transparency, data lineage, and system reliability ",
+      "duration": "2024-2025",
+      "title": "Associate Software Engineer"
+    },
+    {
+      "company": "Amazon",
+      "description": "Supported fulfillment centre operations by scanning, organizing, and accurately stowing incoming inventory into designated storage locations while meeting productivity, quality, and safety expectations. Took on line-lead responsibilities by helping organize workflow, communicating daily instructions, supporting associates, and escalating inventory or operational issues to supervisors. Developed strong experience in process coordination, performance monitoring, teamwork, and maintaining efficiency within a high-volume operational environment.",
+      "duration": "2021-2022",
+      "title": "Stow Line Lead"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "SQL/RDBMS",
+      "Excel",
+      "Data Governance",
+      "Critical Data Elements",
+      "Crossteam Collaboration"
+    ],
+    "familiar": [
+      "Python",
+      "Docker",
+      "Data Analytics",
+      "Cloud Platforms",
+      "Figma"
+    ],
+    "proficient": [
+      "Process Analysis",
+      "Jira/Confluence",
+      "Requirements Gathering",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "Business Systems Analyst with a background in Political Science from York University and enterprise data experience at TD Bank. While working within TD's Enterprise Data Management Office (EDMO), focused on data governance, process analysis, and streamlining operational workflows across data management practices. Skilled in bridging technical requirements with business strategy, building automated data pipelines, and designing structured, scalable processes that optimize data reliability and organizational efficiency."
+}
