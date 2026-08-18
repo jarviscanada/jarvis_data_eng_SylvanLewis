@@ -1,0 +1,132 @@
+# Preferred name (Characters only)
+name: "Sylvan Lewis"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis
+
+
+
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: summary: "Business Systems Analyst with an academic background in Political Science from York University and enterprise data management experience at TD Bank. Political Science training strengthened my ability to evaluate complex organizational structures, policy frameworks, and stakeholder interests, while my work within TD's Enterprise Data Management Office developed my expertise in data governance, process analysis, and operational workflows. Skilled in eliciting requirements, documenting end-to-end systems, and bridging business objectives with technical execution to design structured, scalable, and reliable processes."
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Process Analysis
+    - Jira/Confluence
+    - Requirements Gathering
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - SQL/RDBMS
+    - Excel
+    - Data Governance
+    - Critical Data Elements
+    - Crossteam Collaboration
+  # At least 5 skills
+  familiar:
+    - Python
+    - Docker
+    - Data Analytics
+    - Cloud Platforms
+    - Figma
+
+
+
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    description: "Built a Bash-based hardware monitoring application that automates the collection of Linux server metrics, including CPU usage, memory availability, and host details. Persisted the collected usage data into a containerized PostgreSQL database managed through Docker for performance tracking. Documented application architecture, data flow, and operating procedures to support reliable system observability and resource management."
+  - name: "RDBMS & SQL"
+    git_url: "/sql"
+    description: "Analyzed a resort dataset containing facility, reservation, and member information by organizing the data into a relational PostgreSQL database running on Docker, and translating business questions into SQL queries."
+  - name: "Business Requirements Document"
+    git_url: "/rbc_gam"
+    description: "Produced a comprehensive Business Requirements Document for a proposed RBC Global Asset Management reporting solution that consolidated data from five source systems into an executive dashboard. Documented business objectives, stakeholders, functional specifications, non-functional requirements, and data governance controls for daily reporting refreshes. Translated complex financial reporting needs into implementation-ready requirements for technical development teams. "
+  - name: "Software Requirements Specification"
+    git_url: "/stockquote"
+    description: "Led stakeholder elicitation sessions to define functional and non-functional requirements for a self-serve retail stock trading front-end, producing a comprehensive Software Requirements Document (SRD). Modeled core entities for trade transactions, mapped system dependencies against existing bank execution engines, and established pre-trade buying power validation rules. Documented order lifecycle states, market closure exception workflows, and data-drift risks to deliver implementation-ready specs for development teams."
+  - name: "Python Data Analytics"
+    git_url: "/python_data_analytics"
+    description: "Analyzed two years of e-commerce transactional data for the London Gift Shop using Python (Pandas) and SQL to perform RFM customer segmentation, evaluate Q4 revenue seasonality, and identify growth opportunities across international buyer segments."
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
+
+
+
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Personal Expense Manager"
+    #URL is optional
+    git_url: "https://github.com/sylvan-lewis/Raq-Track"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Personally designed and implemented an object-oriented expense tracking application in Java to assist users in managing budgets and monitoring spending habits. Translated personal financial management needs into functional application features, including transaction categorization, user authentication, and persistent file storage. Structured the software into distinct controllers, data models, and view components to demonstrate clean architectural design and functional testing."
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Business System Analyst"
+    company: "Jarvis"
+    duration: "2026-present"
+    description: "Analyze business needs and translate them into functional requirements, technical documentation, process models, and proposed system solutions across data and software projects. Collaborate on technical projects involving SQL, PostgreSQL, Python, Docker and Git while balancing organizational objectives."
+  - title: "Associate Software Engineer"
+    company: "TD Bank"
+    duration: "2024-2025"
+    description: "Supported data governance standards and procedures within TD Bank's Enterprise Data Management Office with cross-team collaboration in implementing new DSCIT standards. Collaborated with business and technical partners on Python-based data ingestion workflows within Collibra and updated Critical Data Elements through Jira. Connected governance compliance requirements directly with technical data solutions to improve documentation transparency, data lineage, and system reliability "
+  - title: "Stow Line Lead"
+    company: "Amazon"
+    duration: "2021-2022"
+    description: "Supported fulfillment centre operations by scanning, organizing, and accurately stowing incoming inventory into designated storage locations while meeting productivity, quality, and safety expectations. Took on line-lead responsibilities by helping organize workflow, communicating daily instructions, supporting associates, and escalating inventory or operational issues to supervisors. Developed strong experience in process coordination, performance monitoring, teamwork, and maintaining efficiency within a high-volume operational environment."
+#List of education
+education:
+  - school_name: "York University"
+    duration: "2025-present"
+    degree: "Bachelor of Arts"
+    department: "Political Science"
+    awards_achievements: null
+  - school_name: "Humber College"
+    duration: "2018-2020"
+    degree: "Diploma in Paralegal Education"
+    department: "Paralegal Education"
+    awards_achievements: null
+
+
+
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "IBM Data Analytics (2024)"
+      - "Azure AI Fundamentals (2024)"
+      - "TD Meloche Monnex Bursary (2025)"
+      - "Tom Janes Award for Black Scholars (2026)"
+      - "Oussama J. Marrow Memorial Award (2026)"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Dedicated parent balancing professional growth with active family engagement"
+      - "Maintaining an active personal routine through regular strength training and fitness"
+      - "Actively contributing to local urban forest conservation and environmental sustainability programs"
+
+
+
+
+
