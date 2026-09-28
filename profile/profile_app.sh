@@ -1,18 +1,18 @@
 #!/bin/bash
 
-#cd to script dir
+# cd to script dir
 cd "$(dirname "$0")"
 
 function init() {
   echo "---- Downloading sample profile.yaml file ----"
-  chmod +x $0
+  chmod +x "$0"
   wget https://raw.githubusercontent.com/jarviscanada/jarvis_profile_builder/develop/profile.yaml -O profile.yaml
   exit 0
 }
 
 function check_status() {
   exit_code=$1
-  if [ ${exit_code} -eq 0 ]
+  if [ "${exit_code}" -eq 0 ]
   then
     echo "Success!!!👍"
     echo ""
@@ -26,28 +26,30 @@ function validate_yaml() {
   echo "---- Validating profile.yaml file ----"
   docker pull jrvs/yamale
   docker pull mikefarah/yq:3.3.4
-  docker run --rm -v "${PWD}":/workdir jrvs/yamale yamale -s /schema/profile_schema.yaml profile.yaml
+  docker run --rm -v "$(pwd)":/workdir jrvs/yamale yamale -s /schema/profile_schema.yaml profile.yaml
   check_status $?
 }
 
 function get_profile_name() {
-  echo "---- Parsing metadat ----"
-  profile_name=$(docker run -it --rm -v "${PWD}":/workdir mikefarah/yq:3.3.4 yq r profile.yaml name  | xargs | tr -d '\r' | sed -e 's/ /_/g')
-  profile_prefix=jarvis_profile_${profile_name}
-  echo ${profile_name}
+  echo "---- Parsing metadata ----"
+  # FIX: Corrected $sss( typo to $(), removed -it flag to prevent subshell crashes, and used lower-case pwd
+  profile_name=$(docker run --rm -v "$(pwd)":/workdir mikefarah/yq:3.3.4 yq r profile.yaml name | xargs | tr -d '\r' | sed -e 's/ /_/g')
+  profile_prefix="jarvis_profile_${profile_name}"
+  echo "Profile Name: ${profile_name}"
   check_status $?
 }
 
 function yaml_to_json() {
-  echo "---- Coverting profile YAML to JSON ----"
-  docker run --rm -v "${PWD}":/workdir mikefarah/yq:3.3.4 yq r -j --prettyPrint profile.yaml > profile.json
+  echo "---- Converting profile YAML to JSON ----"
+  docker run --rm -v "$(pwd)":/workdir mikefarah/yq:3.3.4 yq r -j --prettyPrint profile.yaml > profile.json
   check_status $?
 }
 
 function render_md() {
   echo "---- Rendering profile.md ----"
   docker pull jrvs/render_profile_md
-  docker run --rm -it -v "${PWD}":/workdir jrvs/render_profile_md  profile.yaml profile.md
+  # FIX: Removed -it flag because interactive TTY cannot be allocated when running non-interactively in standard scripts
+  docker run --rm -v "$(pwd)":/workdir jrvs/render_profile_md profile.yaml profile.md
   check_status $?
 }
 
@@ -60,14 +62,15 @@ function render_pdf() {
   left_right_margin=1.5cm
   font_size=8
 
-  docker run --rm --volume "$(pwd):/data" --user $(id -u):$(id -g) pandoc/latex:2.9.2.1 \
+  # FIX: Windows Docker setups do not always recognize $(id -u). Stripped it for cross-platform ease.
+  docker run --rm --volume "$(pwd):/data" pandoc/latex:2.9.2.1 \
     ${template_profile} -f markdown -t pdf -s \
     --pdf-engine=xelatex -V pagestyle=empty -V fontsize=${font_size}pt -V geometry:"top=${top_bot_margin}, bottom=${top_bot_margin}, left=${left_right_margin}, right=${left_right_margin}" -o ${output_profile_pdf}
   check_status $?
 }
 
 function overwrite_readme() {
-  if ls ../README.md; then
+  if [ -f ../README.md ]; then
     echo "---- Moving profile.md to ../README.md ----"
     mv -f profile.md ../README.md
   fi

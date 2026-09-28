@@ -1,6 +1,6 @@
 # Sylvan Lewis . Jarvis Consulting
 
-Business Systems Analyst with a background in Political Science from York University and enterprise data experience at TD Bank. While working within TD's Enterprise Data Management Office (EDMO), focused on data governance, process analysis, and streamlining operational workflows across data management practices. Skilled in bridging technical requirements with business strategy, building automated data pipelines, and designing structured, scalable processes that optimize data reliability and organizational efficiency.
+Business Systems Analyst with an academic background in Political Science from York University and enterprise data management experience at TD Bank. Political Science training strengthened my ability to evaluate complex organizational structures, policy frameworks, and stakeholder interests, while my work within TD's Enterprise Data Management Office developed my expertise in data governance, process analysis, and operational workflows. Skilled in eliciting requirements, documenting end-to-end systems, and bridging business objectives with technical execution to design structured, scalable, and reliable processes.
 
 ## Skills
 
@@ -25,12 +25,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/python_data_analytics)]: Analyzed two years of e-commerce transactional data for the London Gift Shop using Python (Pandas) and SQL to perform RFM customer segmentation, evaluate Q4 revenue seasonality, and identify growth opportunities across international buyer segments.
 
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/cloud_devops)]: Not Started
-
 
 ## Highlighted Projects
 **Personal Expense Manager** [[GitHub](https://github.com/sylvan-lewis/Raq-Track)]: Personally designed and implemented an object-oriented expense tracking application in Java to assist users in managing budgets and monitoring spending habits. Translated personal financial management needs into functional application features, including transaction categorization, user authentication, and persistent file storage. Structured the software into distinct controllers, data models, and view components to demonstrate clean architectural design and functional testing.
@@ -47,9 +41,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 
 ## Education
 **York University (2025-present)**, Bachelor of Arts, Political Science
-- TD Meloche Monnex Bursary (2025)
-- Tom Janes Award for Black Scholars (2026)
-- Oussama J. Marrow Memorial Award (2026)
 
 **Humber College (2018-2020)**, Diploma in Paralegal Education, Paralegal Education
 
@@ -57,6 +48,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 ## Miscellaneous
 - IBM Data Analytics (2024)
 - Azure AI Fundamentals (2024)
+- TD Meloche Monnex Bursary (2025)
+- Tom Janes Award for Black Scholars (2026)
+- Oussama J. Marrow Memorial Award (2026)
 - Dedicated parent balancing professional growth with active family engagement
 - Maintaining an active personal routine through regular strength training and fitness
 - Actively contributing to local urban forest conservation and environmental sustainability programs

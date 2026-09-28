@@ -1,11 +1,7 @@
 {
   "education": [
     {
-      "awards_achievements": [
-        "TD Meloche Monnex Bursary (2025)",
-        "Tom Janes Award for Black Scholars (2026)",
-        "Oussama J. Marrow Memorial Award (2026)"
-      ],
+      "awards_achievements": null,
       "degree": "Bachelor of Arts",
       "department": "Political Science",
       "duration": "2025-present",
@@ -52,21 +48,6 @@
       "description": "Analyzed two years of e-commerce transactional data for the London Gift Shop using Python (Pandas) and SQL to perform RFM customer segmentation, evaluate Q4 revenue seasonality, and identify growth opportunities across international buyer segments.",
       "git_url": "/python_data_analytics",
       "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Sylvan Lewis",
@@ -74,7 +55,10 @@
     {
       "bullets": [
         "IBM Data Analytics (2024)",
-        "Azure AI Fundamentals (2024)"
+        "Azure AI Fundamentals (2024)",
+        "TD Meloche Monnex Bursary (2025)",
+        "Tom Janes Award for Black Scholars (2026)",
+        "Oussama J. Marrow Memorial Award (2026)"
       ],
       "title": "Certificates"
     },
@@ -130,5 +114,5 @@
       "Git"
     ]
   },
-  "summary": "Business Systems Analyst with a background in Political Science from York University and enterprise data experience at TD Bank. While working within TD's Enterprise Data Management Office (EDMO), focused on data governance, process analysis, and streamlining operational workflows across data management practices. Skilled in bridging technical requirements with business strategy, building automated data pipelines, and designing structured, scalable processes that optimize data reliability and organizational efficiency."
+  "summary": "Business Systems Analyst with an academic background in Political Science from York University and enterprise data management experience at TD Bank. Political Science training strengthened my ability to evaluate complex organizational structures, policy frameworks, and stakeholder interests, while my work within TD's Enterprise Data Management Office developed my expertise in data governance, process analysis, and operational workflows. Skilled in eliciting requirements, documenting end-to-end systems, and bridging business objectives with technical execution to design structured, scalable, and reliable processes."
 }
