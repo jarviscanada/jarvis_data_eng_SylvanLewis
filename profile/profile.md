@@ -25,6 +25,10 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/python_data_analytics)]: Analyzed two years of e-commerce transactional data for the London Gift Shop using Python (Pandas) and SQL to perform RFM customer segmentation, evaluate Q4 revenue seasonality, and identify growth opportunities across international buyer segments.
 
+**Power BI** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/power_bi)]: Created interactive dashboards, visualization datasets to show trends based on the user's input. These were ingested, cleaned, and transformed into a data model to be used in Power BI. The dashboards were designed to provide insights into the data and help users make informed decisions.
+
+**MongoDB NOSQL** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/mongodb)]: Explored the capabilities of MongoDB as a NoSQL database for handling unstructured data. Implemented basic CRUD operations and utilized aggregation pipelines for data analysis.
+
 
 ## Highlighted Projects
 **Personal Expense Manager** [[GitHub](https://github.com/sylvan-lewis/Raq-Track)]: Personally designed and implemented an object-oriented expense tracking application in Java to assist users in managing budgets and monitoring spending habits. Translated personal financial management needs into functional application features, including transaction categorization, user authentication, and persistent file storage. Structured the software into distinct controllers, data models, and view components to demonstrate clean architectural design and functional testing.
