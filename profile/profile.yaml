@@ -54,15 +54,15 @@ jarvis_projects:
   - name: "Python Data Analytics"
     git_url: "/python_data_analytics"
     description: "Analyzed two years of e-commerce transactional data for the London Gift Shop using Python (Pandas) and SQL to perform RFM customer segmentation, evaluate Q4 revenue seasonality, and identify growth opportunities across international buyer segments."
-#  - name: "Hadoop"
-#    git_url: "/hadoop"
-#    description: ""
-#  - name: "Spark"
-#    git_url: "/spark"
-#    description: ""
+  - name: "Power BI"
+    git_url: "/power_bi"
+    description: "Created interactive dashboards, visualization datasets to show trends based on the user's input. These were ingested, cleaned, and transformed into a data model to be used in Power BI. The dashboards were designed to provide insights into the data and help users make informed decisions."
+  - name: "MongoDB NOSQL"
+    git_url: "/mongodb"
+    description: "Explored the capabilities of MongoDB as a NoSQL database for handling unstructured data. Implemented basic CRUD operations and utilized aggregation pipelines for data analysis."
 #  - name: "Cloud/DevOps"
 #    git_url: "/cloud_devops"
-#    description: ""
+#    description: "Gained hands-on experience with cloud platforms and DevOps practices, including containerization with Docker and orchestration with Kubernetes."
 
 
 

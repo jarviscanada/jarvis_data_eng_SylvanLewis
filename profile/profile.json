@@ -41,7 +41,7 @@
     },
     {
       "description": "Led stakeholder elicitation sessions to define functional and non-functional requirements for a self-serve retail stock trading front-end, producing a comprehensive Software Requirements Document (SRD). Modeled core entities for trade transactions, mapped system dependencies against existing bank execution engines, and established pre-trade buying power validation rules. Documented order lifecycle states, market closure exception workflows, and data-drift risks to deliver implementation-ready specs for development teams.",
-      "git_url": "/stockquote",
+      "git_url": "/stock_quote",
       "name": "Software Requirements Specification"
     },
     {
