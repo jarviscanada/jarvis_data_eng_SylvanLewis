@@ -19,11 +19,17 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 
 **RDBMS & SQL** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/sql)]: Analyzed a resort dataset containing facility, reservation, and member information by organizing the data into a relational PostgreSQL database running on Docker, and translating business questions into SQL queries.
 
-**Business Requirements Document** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/rbc_gam)]: Produced a comprehensive Business Requirements Document for a proposed RBC Global Asset Management reporting solution that consolidated data from five source systems into an executive dashboard. Documented business objectives, stakeholders, functional specifications, non-functional requirements, and data governance controls for daily reporting refreshes. Translated complex financial reporting needs into implementation-ready requirements for technical development teams. 
+**Business Requirements Document** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/rbc_gam)]: Produced a comprehensive Business Requirements Document for a proposed RBC Global Asset Management reporting solution that consolidated data from five source systems into an executive dashboard. Documented business objectives, stakeholders, functional specifications, non-functional requirements, and data governance controls for daily reporting refreshes. Translated complex financial reporting needs into implementation-ready requirements for technical development teams.
 
 **Software Requirements Specification** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/stockquote)]: Led stakeholder elicitation sessions to define functional and non-functional requirements for a self-serve retail stock trading front-end, producing a comprehensive Software Requirements Document (SRD). Modeled core entities for trade transactions, mapped system dependencies against existing bank execution engines, and established pre-trade buying power validation rules. Documented order lifecycle states, market closure exception workflows, and data-drift risks to deliver implementation-ready specs for development teams.
 
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/python_data_analytics)]: Analyzed two years of e-commerce transactional data for the London Gift Shop using Python (Pandas) and SQL to perform RFM customer segmentation, evaluate Q4 revenue seasonality, and identify growth opportunities across international buyer segments.
+
+**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/hadoop)]: Not Started
+
+**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/spark)]: Not Started
+
+**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/cloud_devops)]: Not Started
 
 **Power BI** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/power_bi)]: Created interactive dashboards, visualization datasets to show trends based on the user's input. These were ingested, cleaned, and transformed into a data model to be used in Power BI. The dashboards were designed to provide insights into the data and help users make informed decisions.
 
@@ -38,7 +44,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 
 **Business System Analyst, Jarvis (2026-present)**: Analyze business needs and translate them into functional requirements, technical documentation, process models, and proposed system solutions across data and software projects. Collaborate on technical projects involving SQL, PostgreSQL, Python, Docker and Git while balancing organizational objectives.
 
-**Associate Software Engineer, TD Bank (2024-2025)**: Supported data governance standards and procedures within TD Bank's Enterprise Data Management Office with cross-team collaboration in implementing new DSCIT standards. Collaborated with business and technical partners on Python-based data ingestion workflows within Collibra and updated Critical Data Elements through Jira. Connected governance compliance requirements directly with technical data solutions to improve documentation transparency, data lineage, and system reliability 
+**Associate Software Engineer, TD Bank (2024-2025)**: Supported data governance standards and procedures within TD Bank's Enterprise Data Management Office with cross-team collaboration in implementing new DSCIT standards. Collaborated with business and technical partners on Python-based data ingestion workflows within Collibra and updated Critical Data Elements through Jira. Connected governance compliance requirements directly with technical data solutions to improve documentation transparency, data lineage, and system reliability
 
 **Stow Line Lead, Amazon (2021-2022)**: Supported fulfillment centre operations by scanning, organizing, and accurately stowing incoming inventory into designated storage locations while meeting productivity, quality, and safety expectations. Took on line-lead responsibilities by helping organize workflow, communicating daily instructions, supporting associates, and escalating inventory or operational issues to supervisors. Developed strong experience in process coordination, performance monitoring, teamwork, and maintaining efficiency within a high-volume operational environment.
 
