@@ -1,6 +1,6 @@
 # Sylvan Lewis . Jarvis Consulting
 
-Business Systems Analyst with a background in Political Science from York University and enterprise data experience at TD Bank. While working within TD's Enterprise Data Management Office (EDMO), focused on data governance, process analysis, and streamlining operational workflows across data management practices. Skilled in bridging technical requirements with business strategy, building automated data pipelines, and designing structured, scalable processes that optimize data reliability and organizational efficiency.
+Business Systems Analyst with an academic background in Political Science from York University and enterprise data management experience at TD Bank. Political Science training strengthened my ability to evaluate complex organizational structures, policy frameworks, and stakeholder interests, while my work within TD's Enterprise Data Management Office developed my expertise in data governance, process analysis, and operational workflows. Skilled in eliciting requirements, documenting end-to-end systems, and bridging business objectives with technical execution to design structured, scalable, and reliable processes.
 
 ## Skills
 
@@ -19,7 +19,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 
 **RDBMS & SQL** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/sql)]: Analyzed a resort dataset containing facility, reservation, and member information by organizing the data into a relational PostgreSQL database running on Docker, and translating business questions into SQL queries.
 
-**Business Requirements Document** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/rbc_gam)]: Produced a comprehensive Business Requirements Document for a proposed RBC Global Asset Management reporting solution that consolidated data from five source systems into an executive dashboard. Documented business objectives, stakeholders, functional specifications, non-functional requirements, and data governance controls for daily reporting refreshes. Translated complex financial reporting needs into implementation-ready requirements for technical development teams. 
+**Business Requirements Document** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/rbc_gam)]: Produced a comprehensive Business Requirements Document for a proposed RBC Global Asset Management reporting solution that consolidated data from five source systems into an executive dashboard. Documented business objectives, stakeholders, functional specifications, non-functional requirements, and data governance controls for daily reporting refreshes. Translated complex financial reporting needs into implementation-ready requirements for technical development teams.
 
 **Software Requirements Specification** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/stockquote)]: Led stakeholder elicitation sessions to define functional and non-functional requirements for a self-serve retail stock trading front-end, producing a comprehensive Software Requirements Document (SRD). Modeled core entities for trade transactions, mapped system dependencies against existing bank execution engines, and established pre-trade buying power validation rules. Documented order lifecycle states, market closure exception workflows, and data-drift risks to deliver implementation-ready specs for development teams.
 
@@ -31,6 +31,10 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 
 **Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/cloud_devops)]: Not Started
 
+**Power BI** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/power_bi)]: Created interactive dashboards, visualization datasets to show trends based on the user's input. These were ingested, cleaned, and transformed into a data model to be used in Power BI. The dashboards were designed to provide insights into the data and help users make informed decisions.
+
+**MongoDB NOSQL** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SylvanLewis/tree/master/mongodb)]: Explored the capabilities of MongoDB as a NoSQL database for handling unstructured data. Implemented basic CRUD operations and utilized aggregation pipelines for data analysis.
+
 
 ## Highlighted Projects
 **Personal Expense Manager** [[GitHub](https://github.com/sylvan-lewis/Raq-Track)]: Personally designed and implemented an object-oriented expense tracking application in Java to assist users in managing budgets and monitoring spending habits. Translated personal financial management needs into functional application features, including transaction categorization, user authentication, and persistent file storage. Structured the software into distinct controllers, data models, and view components to demonstrate clean architectural design and functional testing.
@@ -40,16 +44,13 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 
 **Business System Analyst, Jarvis (2026-present)**: Analyze business needs and translate them into functional requirements, technical documentation, process models, and proposed system solutions across data and software projects. Collaborate on technical projects involving SQL, PostgreSQL, Python, Docker and Git while balancing organizational objectives.
 
-**Associate Software Engineer, TD Bank (2024-2025)**: Supported data governance standards and procedures within TD Bank's Enterprise Data Management Office with cross-team collaboration in implementing new DSCIT standards. Collaborated with business and technical partners on Python-based data ingestion workflows within Collibra and updated Critical Data Elements through Jira. Connected governance compliance requirements directly with technical data solutions to improve documentation transparency, data lineage, and system reliability 
+**Associate Software Engineer, TD Bank (2024-2025)**: Supported data governance standards and procedures within TD Bank's Enterprise Data Management Office with cross-team collaboration in implementing new DSCIT standards. Collaborated with business and technical partners on Python-based data ingestion workflows within Collibra and updated Critical Data Elements through Jira. Connected governance compliance requirements directly with technical data solutions to improve documentation transparency, data lineage, and system reliability
 
 **Stow Line Lead, Amazon (2021-2022)**: Supported fulfillment centre operations by scanning, organizing, and accurately stowing incoming inventory into designated storage locations while meeting productivity, quality, and safety expectations. Took on line-lead responsibilities by helping organize workflow, communicating daily instructions, supporting associates, and escalating inventory or operational issues to supervisors. Developed strong experience in process coordination, performance monitoring, teamwork, and maintaining efficiency within a high-volume operational environment.
 
 
 ## Education
 **York University (2025-present)**, Bachelor of Arts, Political Science
-- TD Meloche Monnex Bursary (2025)
-- Tom Janes Award for Black Scholars (2026)
-- Oussama J. Marrow Memorial Award (2026)
 
 **Humber College (2018-2020)**, Diploma in Paralegal Education, Paralegal Education
 
@@ -57,6 +58,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 ## Miscellaneous
 - IBM Data Analytics (2024)
 - Azure AI Fundamentals (2024)
+- TD Meloche Monnex Bursary (2025)
+- Tom Janes Award for Black Scholars (2026)
+- Oussama J. Marrow Memorial Award (2026)
 - Dedicated parent balancing professional growth with active family engagement
 - Maintaining an active personal routine through regular strength training and fitness
 - Actively contributing to local urban forest conservation and environmental sustainability programs

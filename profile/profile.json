@@ -1,11 +1,7 @@
 {
   "education": [
     {
-      "awards_achievements": [
-        "TD Meloche Monnex Bursary (2025)",
-        "Tom Janes Award for Black Scholars (2026)",
-        "Oussama J. Marrow Memorial Award (2026)"
-      ],
+      "awards_achievements": null,
       "degree": "Bachelor of Arts",
       "department": "Political Science",
       "duration": "2025-present",
@@ -39,7 +35,7 @@
       "name": "RDBMS \u0026 SQL"
     },
     {
-      "description": "Produced a comprehensive Business Requirements Document for a proposed RBC Global Asset Management reporting solution that consolidated data from five source systems into an executive dashboard. Documented business objectives, stakeholders, functional specifications, non-functional requirements, and data governance controls for daily reporting refreshes. Translated complex financial reporting needs into implementation-ready requirements for technical development teams. ",
+      "description": "Produced a comprehensive Business Requirements Document for a proposed RBC Global Asset Management reporting solution that consolidated data from five source systems into an executive dashboard. Documented business objectives, stakeholders, functional specifications, non-functional requirements, and data governance controls for daily reporting refreshes. Translated complex financial reporting needs into implementation-ready requirements for technical development teams.",
       "git_url": "/rbc_gam",
       "name": "Business Requirements Document"
     },
@@ -67,6 +63,16 @@
       "description": "",
       "git_url": "/cloud_devops",
       "name": "Cloud/DevOps"
+    },
+    {
+      "description": "Created interactive dashboards, visualization datasets to show trends based on the user's input. These were ingested, cleaned, and transformed into a data model to be used in Power BI. The dashboards were designed to provide insights into the data and help users make informed decisions.",
+      "git_url": "/power_bi",
+      "name": "Power BI"
+    },
+    {
+      "description": "Explored the capabilities of MongoDB as a NoSQL database for handling unstructured data. Implemented basic CRUD operations and utilized aggregation pipelines for data analysis.",
+      "git_url": "/mongodb",
+      "name": "MongoDB NOSQL"
     }
   ],
   "name": "Sylvan Lewis",
@@ -74,7 +80,10 @@
     {
       "bullets": [
         "IBM Data Analytics (2024)",
-        "Azure AI Fundamentals (2024)"
+        "Azure AI Fundamentals (2024)",
+        "TD Meloche Monnex Bursary (2025)",
+        "Tom Janes Award for Black Scholars (2026)",
+        "Oussama J. Marrow Memorial Award (2026)"
       ],
       "title": "Certificates"
     },
@@ -96,7 +105,7 @@
     },
     {
       "company": "TD Bank",
-      "description": "Supported data governance standards and procedures within TD Bank's Enterprise Data Management Office with cross-team collaboration in implementing new DSCIT standards. Collaborated with business and technical partners on Python-based data ingestion workflows within Collibra and updated Critical Data Elements through Jira. Connected governance compliance requirements directly with technical data solutions to improve documentation transparency, data lineage, and system reliability ",
+      "description": "Supported data governance standards and procedures within TD Bank's Enterprise Data Management Office with cross-team collaboration in implementing new DSCIT standards. Collaborated with business and technical partners on Python-based data ingestion workflows within Collibra and updated Critical Data Elements through Jira. Connected governance compliance requirements directly with technical data solutions to improve documentation transparency, data lineage, and system reliability",
       "duration": "2024-2025",
       "title": "Associate Software Engineer"
     },
@@ -130,5 +139,5 @@
       "Git"
     ]
   },
-  "summary": "Business Systems Analyst with a background in Political Science from York University and enterprise data experience at TD Bank. While working within TD's Enterprise Data Management Office (EDMO), focused on data governance, process analysis, and streamlining operational workflows across data management practices. Skilled in bridging technical requirements with business strategy, building automated data pipelines, and designing structured, scalable processes that optimize data reliability and organizational efficiency."
+  "summary": "Business Systems Analyst with an academic background in Political Science from York University and enterprise data management experience at TD Bank. Political Science training strengthened my ability to evaluate complex organizational structures, policy frameworks, and stakeholder interests, while my work within TD's Enterprise Data Management Office developed my expertise in data governance, process analysis, and operational workflows. Skilled in eliciting requirements, documenting end-to-end systems, and bridging business objectives with technical execution to design structured, scalable, and reliable processes."
 }
