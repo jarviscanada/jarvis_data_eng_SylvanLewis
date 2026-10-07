@@ -54,16 +54,12 @@ jarvis_projects:
   - name: "Python Data Analytics"
     git_url: "/python_data_analytics"
     description: "Analyzed two years of e-commerce transactional data for the London Gift Shop using Python (Pandas) and SQL to perform RFM customer segmentation, evaluate Q4 revenue seasonality, and identify growth opportunities across international buyer segments."
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
-
+  - name: "Power BI Data Analytics"
+    git_url: "/power_bi"
+    description: "Developed an interactive Power BI dashboard to transform raw business data into clear visual insights and performance metrics. Cleaned and structured data for reporting, created relationships between datasets, and designed visualizations to support trend analysis, KPI monitoring, and business decision-making. Applied data modeling and dashboard design principles to communicate complex information in an accessible format for stakeholders."
+  - name: "MongoDB NoSQL"
+    git_url: "/mongodb"
+    description: "Built a document-based insurance API using MongoDB to model and store flexible customer, policy, vehicle, and insurance-related data in JSON-style documents. Designed collections to support nested and evolving data structures without relying on rigid relational schemas, and verified API operations through Postman. Demonstrated practical understanding of NoSQL database design, document modeling, CRUD operations, and API-based data access."
 
 
 
