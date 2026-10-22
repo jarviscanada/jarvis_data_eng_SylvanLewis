@@ -50,21 +50,6 @@
       "name": "Python Data Analytics"
     },
     {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
-    },
-    {
       "description": "Created interactive dashboards, visualization datasets to show trends based on the user's input. These were ingested, cleaned, and transformed into a data model to be used in Power BI. The dashboards were designed to provide insights into the data and help users make informed decisions.",
       "git_url": "/power_bi",
       "name": "Power BI"
@@ -107,13 +92,7 @@
       "company": "TD Bank",
       "description": "Supported data governance standards and procedures within TD Bank's Enterprise Data Management Office with cross-team collaboration in implementing new DSCIT standards. Collaborated with business and technical partners on Python-based data ingestion workflows within Collibra and updated Critical Data Elements through Jira. Connected governance compliance requirements directly with technical data solutions to improve documentation transparency, data lineage, and system reliability",
       "duration": "2024-2025",
-      "title": "Associate Software Engineer"
-    },
-    {
-      "company": "Amazon",
-      "description": "Supported fulfillment centre operations by scanning, organizing, and accurately stowing incoming inventory into designated storage locations while meeting productivity, quality, and safety expectations. Took on line-lead responsibilities by helping organize workflow, communicating daily instructions, supporting associates, and escalating inventory or operational issues to supervisors. Developed strong experience in process coordination, performance monitoring, teamwork, and maintaining efficiency within a high-volume operational environment.",
-      "duration": "2021-2022",
-      "title": "Stow Line Lead"
+      "title": "Business Process Analyst"
     }
   ],
   "skills": {
