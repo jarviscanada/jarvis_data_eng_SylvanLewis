@@ -1,12 +1,12 @@
 # Sylvan Lewis . Jarvis Consulting
 
-Business Systems Analyst with an academic background in Political Science from York University and enterprise data management experience at TD Bank. Political Science training strengthened my ability to evaluate complex organizational structures, policy frameworks, and stakeholder interests, while my work within TD's Enterprise Data Management Office developed my expertise in data governance, process analysis, and operational workflows. Skilled in eliciting requirements, documenting end-to-end systems, and bridging business objectives with technical execution to design structured, scalable, and reliable processes.
+Business Systems Analyst with enterprise financial services experience at TD Bank and an interdisciplinary background in Political Science, Paralegal Education, and Full Stack Software Development through Obsidian Academy. My experience within TD's Enterprise Data Management Office strengthened my expertise in data governance, business process analysis, stakeholder collaboration, and enterprise technology workflows. My legal education established a strong foundation in legal research, case analysis, regulatory interpretation, and technical document drafting. Complemented by Political Science studies at York University, this background enhanced my ability to evaluate organizational structures, policies, and procedural workflows while translating complex information into actionable documentation. My software development training further strengthened my technical proficiency in Java, SQL, Python, relational databases, and application development. I am passionate about bridging business objectives, regulatory requirements, and technical execution through effective requirements engineering and systems analysis. My professional goal is to contribute to the development of scalable, reliable technology solutions that improve operational efficiency, regulatory compliance, and informed decision-making.
 
 ## Skills
 
-**Proficient:** Process Analysis, Jira/Confluence, Requirements Gathering, Agile/Scrum, Git
+**Proficient:** Process Analysis, Jira/Confluence, SQL/RDBMS, Agile/Scrum, Git
 
-**Competent:** SQL/RDBMS, Excel, Data Governance, Critical Data Elements, Crossteam Collaboration
+**Competent:** Elicitation & Documentation, Excel, Data Governance, Critical Data Elements, Crossteam Collaboration
 
 **Familiar:** Python, Docker, Data Analytics, Cloud Platforms, Figma
 
@@ -39,6 +39,10 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SylvanLewi
 **Business System Analyst, Jarvis (2026-present)**: Analyze business needs and translate them into functional requirements, technical documentation, process models, and proposed system solutions across data and software projects. Collaborate on technical projects involving SQL, PostgreSQL, Python, Docker and Git while balancing organizational objectives.
 
 **Business Process Analyst, TD Bank (2024-2025)**: Supported data governance standards and procedures within TD Bank's Enterprise Data Management Office with cross-team collaboration in implementing new DSCIT standards. Collaborated with business and technical partners on Python-based data ingestion workflows within Collibra and updated Critical Data Elements through Jira. Connected governance compliance requirements directly with technical data solutions to improve documentation transparency, data lineage, and system reliability
+
+**Full Stack Developer, Obsidi Academy (2024-2025)**: Completed intensive Full Stack Software Development training covering Java 17, Spring Boot, JavaScript, React, HTML5, CSS3, SQL, and PostgreSQL. Developed applications integrating RESTful APIs, JWT authentication, and relational databases while applying object-oriented programming and SOLID principles. Utilized Git, GitHub, Postman, JUnit, Selenium, and Agile methodologies to support software development, testing, and collaborative workflows.
+
+**Legal Studies & Professional Development, Independent (2020-2023)**: Pursued independent legal studies following COVID-19 disruptions to practical placement opportunities, strengthening expertise in legal research, case analysis, civil litigation, and regulatory interpretation. Developed analytical writing, legal drafting, and procedural documentation skills through self-directed study. Applied critical thinking and structured analysis to complex legal frameworks, building transferable competencies in requirements documentation, business process analysis, and regulatory compliance.
 
 
 ## Education
