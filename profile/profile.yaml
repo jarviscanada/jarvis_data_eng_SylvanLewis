@@ -15,12 +15,12 @@ skills:
   proficient:
     - Process Analysis
     - Jira/Confluence
-    - Requirements Gathering
+    - SQL/RDBMS
     - Agile/Scrum
     - Git
   # At least 5 skills
   competent:
-    - SQL/RDBMS
+    - Elicitation & Documentation
     - Excel
     - Data Governance
     - Critical Data Elements
