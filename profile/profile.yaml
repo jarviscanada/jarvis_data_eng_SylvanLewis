@@ -50,15 +50,6 @@ jarvis_projects:
   - name: "Python Data Analytics"
     git_url: "/python_data_analytics"
     description: "Analyzed two years of e-commerce transactional data for the London Gift Shop using Python (Pandas) and SQL to perform RFM customer segmentation, evaluate Q4 revenue seasonality, and identify growth opportunities across international buyer segments."
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
   - name: "Power BI"
     git_url: "/power_bi"
     description: "Created interactive dashboards, visualization datasets to show trends based on the user's input. These were ingested, cleaned, and transformed into a data model to be used in Power BI. The dashboards were designed to provide insights into the data and help users make informed decisions."
@@ -84,15 +75,11 @@ professional_experience:
     company: "Jarvis"
     duration: "2026-present"
     description: "Analyze business needs and translate them into functional requirements, technical documentation, process models, and proposed system solutions across data and software projects. Collaborate on technical projects involving SQL, PostgreSQL, Python, Docker and Git while balancing organizational objectives."
-  - title: "Associate Software Engineer"
+  - title: "Business Process Analyst"
     company: "TD Bank"
     duration: "2024-2025"
     description: "Supported data governance standards and procedures within TD Bank's Enterprise Data Management Office with cross-team collaboration in implementing new DSCIT standards. Collaborated with business and technical partners on Python-based data ingestion workflows within Collibra and updated Critical Data Elements through Jira. Connected governance compliance requirements directly with technical data solutions to improve documentation transparency, data lineage, and system reliability"
-  - title: "Stow Line Lead"
-    company: "Amazon"
-    duration: "2021-2022"
-    description: "Supported fulfillment centre operations by scanning, organizing, and accurately stowing incoming inventory into designated storage locations while meeting productivity, quality, and safety expectations. Took on line-lead responsibilities by helping organize workflow, communicating daily instructions, supporting associates, and escalating inventory or operational issues to supervisors. Developed strong experience in process coordination, performance monitoring, teamwork, and maintaining efficiency within a high-volume operational environment."
-
+  
 # List of education
 education:
   - school_name: "York University"
